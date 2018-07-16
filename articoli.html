@@ -1,0 +1,19 @@
+---
+layout: layout
+title: Scopri come cambia la privacvy con la 2016/679.
+---
+<article id="main">
+    <header class="special container">
+        <h2>{{ page.title }}</h2>
+    </header>
+    <section class="wrapper style4 container">
+        <ul class="posts">
+          {% for post in site.posts %}
+            <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </li>
+          {% endfor %}
+        </ul>
+    </section>
+</article>

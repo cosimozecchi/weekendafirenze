@@ -1,0 +1,20 @@
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
+<!-- Output author details if some exist. -->
+{% if author %}
+<div class="post-meta row">
+	<div class="author-icon col-1">
+		<a href="{{ author.web }}" target="_blank"><img src="{{ author.image }}" alt="{{ author.name }} biografia" /></a>
+	</div>
+	<div class="col-11">
+		<p>Articolo scritto il {{ page.date | date: "%-d %b, %Y" }} da <strong>{{ author.name }}</strong></p>
+		<p> 
+			{{ author.description }}
+		</p>
+	</div>
+    
+</div>
+{% else %}
+<p class="post-meta">Articolo scritto il {{ page.date | date: "%b %-d, %Y" }} {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+{% endif %}
