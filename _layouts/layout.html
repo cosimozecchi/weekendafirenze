@@ -1,25 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-
-{% include header.html %}
-
+<!DOCTYPE HTML>
+<html class="no-js no-touch">
+  {% include header.html %}
   <body>
-  {% gtm body %}
-  {% include nav.html %}
-
-
-   <!-- Area video -->
+    {% gtm body %}
+    <div id="cbp-so-scroller" class="cbp-so-scroller">
    
-     <section class="features-icons bg-white pt-2 mt-4 pb-4">
-      <div class="container ">       
-      {{content}}
-      </div>
-    </section>
-    
+    <!--BEGIN-HEADER-->
+    {% include nav.html %}
+    <!--END-HEADER-->
+    {{content}}
     
     <!-- Footer -->
-{% include footer.html %}
+    {% include footer.html %}
+  </div>
 
+  <!--BEGIN-SCRIPTS--> 
+  {% include js.html %}
+  <!--END-OF-SCRIPTS-->
   </body>
-
 </html>

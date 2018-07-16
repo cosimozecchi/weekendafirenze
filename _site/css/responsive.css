@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 15th December, 2013
+Description: A default stylesheet for Voyage Tourism Responsive Landing Page Template, Designed & Developed By Saptarang.
+*/
+
+@media screen and (max-width : 320px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 11px;
+}
+#top nav ul {
+	width: 100%;
+	text-align: center!important;
+	padding: 0;
+	background-color: rgba(255,255,255,0.15);
+}
+#top nav ul li {
+	display: block;
+	width: 100%!important;
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-style: none solid solid solid;
+	margin: 0;
+}
+#top nav ul li a {
+	line-height: 3.5em;
+}
+#image-slider {
+	margin-top: 10em!important;
+}
+#home .carousel-caption h3 {
+	font-size: 0.8em!important;
+}
+#home .carousel-caption h6 {
+	display: none;
+}
+.sticky_box {
+	margin-bottom: 2em;
+}
+h3.section-title {
+	width: 100%;
+	border-radius: 0;
+}
+.quote-box p {
+	text-align: center!important;
+	float: none;
+}
+.quote-box p img {
+	display: block;
+	margin: 0 auto 1.5em;
+	float: none!important;
+	width: 150px;
+	height: auto;
+}
+}
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen and (min-width : 320px) and (max-width : 570px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 12px;
+}
+#top nav ul {
+	width: 100%;
+	text-align: center!important;
+	padding: 0;
+	background-color: rgba(255,255,255,0.15);
+}
+#top nav ul li {
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-style: none solid solid solid;
+	margin: 0;
+}
+#top nav ul li a {
+	line-height: 3.5em;
+}
+#home .carousel-caption h3 {
+	font-size: 1.1em!important;
+}
+#image-slider {
+	margin-top: 9.5em!important;
+}
+.sticky_box {
+	margin-bottom: 2em;
+}
+}
+@media screen and (max-width : 568px) {
+h3.section-title {
+	width: 100%;
+	border-radius: 0;
+}
+.panel-heading h4 span {
+	line-height: 1.2em;
+}
+.grid {
+	padding: 0px;
+}
+.grid li {
+	width: 100%;
+	min-width: 100%;
+}
+.cs-style-4 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+.no-touch .cs-style-4 figure:hover figcaption, .cs-style-4 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+.grid figcaption {
+	display: block;
+	position: relative!important;
+	top: auto;
+	left: auto;
+	padding-top: 2em!important;
+}
+#partnerSlider ul li {
+	display: block;
+	width: 100%;
+}
+#partnerSlider ul li img {
+	width: 75%;
+	margin: 1% auto!important;
+	opacity: 1;
+}
+}
+/* iPhone 5 (landscape)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+#top nav ul li {
+	width: 50%!important;
+	float: left;
+}
+#home .carousel-caption h6 {
+	font-size: 0.9em!important;
+}
+}
+
+/* iPhone 5 (portrait)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
+#top nav ul li {
+	display: block;
+	width: 100%!important;
+}
+#home .carousel-caption h6 {
+	display: none;
+}
+.quote-box p {
+	text-align: center!important;
+	float: none;
+}
+.quote-box p img {
+	display: block;
+	margin: 0 auto 1.5em;
+	float: none!important;
+	width: 150px;
+	height: auto;
+}
+}
+@media only screen and (min-width : 569px) and (max-width : 599px) {
+#top nav ul {
+	width: 100%;
+	text-align: center!important;
+	padding: 0;
+	background-color: rgba(255,255,255,0.15);
+}
+#top nav ul li {
+	display: block;
+	width: 50%;
+	float: left;
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-style: none solid solid solid;
+	margin: 0;
+}
+#top nav ul li a {
+	line-height: 3.5em;
+}
+#home .carousel-caption h3 {
+	font-size: 1.3em!important;
+}
+#home .carousel-caption h6 {
+	font-size: 0.9em!important;
+}
+#image-slider {
+	margin-top: 9.5em!important;
+}
+.sticky_box {
+	margin-bottom: 2em;
+}
+}
+ @media screen and (min-width : 600px) and (max-width : 767px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 13px;
+}
+#top nav ul {
+	width: 100%;
+	text-align: center!important;
+	padding: 0;
+	background-color: rgba(255,255,255,0.15);
+	margin: 0;
+}
+#top nav ul li {
+	display: block;
+	width: 50%;
+	float: left;
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-style: none solid solid solid;
+	margin: 0;
+}
+#top nav ul li:nth-child(odd) {
+	border-right: none;
+}
+#top nav ul li a {
+	line-height: 3.5em;
+}
+#image-slider {
+	margin-top: 9.5em!important;
+}
+.sticky_box {
+	margin-bottom: 2em;
+}
+}
+ @media only screen and (max-width : 768px) {
+#copyright div, #copyright .container, #copyright .row, #copyright ul {
+	display: block;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+#copyright .container, #copyright .row {
+	paddin: 0;
+	margin: 0;
+}
+#subscribe .btn {
+	padding: 1.4em 2em;
+}
+#subscribe .container span, #subscribe .container {
+	display: block;
+	margin: 0 auto;
+	text-align: center!important;
+}
+#subscribe .container span {
+	margin-bottom: 2em;
+}
+#top .topnav {
+	width: 100%;
+}
+}
+ @media only screen and (max-width : 996px) {
+.brand {
+	display: block;
+	text-align: center;
+	margin: 0 auto 1em;
+}
+#top nav ul {
+	widht: 100%;
+	text-align: center!important;
+	float: none;
+	margin: 0;
+}
+#home .carousel-caption h3 {
+	font-size: 1.5em;
+}
+#home .carousel-caption h6 {
+	font-size: 1.1em;
+}
+#image-slider {
+	margin-top: 7.7em;
+}
+#itinerary #accordion-one, .footer-about, .ex-padding {
+	margin-bottom: 4em;
+}
+.ex-padding {
+	padding: 0;
+}
+#facilities .pic_box {
+	margin-bottom: 2em!important;
+}
+#quotes blockquote {
+	min-height: 10.5em;
+}
+#quotes .quote-box {
+	margin-bottom: 3em!important;
+}
+a.carousel-control {
+	display:block!important;
+	visibility:visible;
+}	
+.pic_box h3 {
+	position: relative!important;
+	background: rgba(0,0,0,0.9);
+	z-index:0!important;
+}
+.grid li figcaption {
+	padding: 2em 2em 1.5em 2em;
+}
+}
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {
+	font-size: 13px;
+}
+a.carousel-control {
+	display:block!important;
+	visibility:visible!important;
+}
+#top .topnav {
+	width: 100%;
+}
+}
+ /* Desktops, Large Screen and laptops ----------- */
+ @media only screen and (min-width : 767px) {
+#top .navbar {
+	display: none;
+}
+}
+@media only screen and (max-width:1400px) {
+#home .carousel .item .carousel-image {
+	display: block;
+	max-height: 40em;
+	overflow: hidden;
+}
+#image-slider {height:auto; }
+}

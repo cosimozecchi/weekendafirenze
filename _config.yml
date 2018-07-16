@@ -13,13 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Consulenze legali e tecniche su privacy e gdpr
-email: info@trame-digitali.it
+title: Buy tickets online
+email: help@web95.it
 description: >- # this means to ignore newlines until "baseurl:"
-  Sei in regola col nuovo regolamento europeo sulla Privacy? 
-  Hai un team di fiducia che ti segua nelle scelte aziendali che riguardano il trattamento dati?
+  Online Florence museums tickets reservation available for independent travelers: save valuable time, avoid queues and secure museums tickets even in the high season, when Uffizi reservations are booked over a month in advance.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.consulenze-privacy-gdpr.eu"" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://www.weekendafirenze.com"" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -30,7 +29,7 @@ sass:
 # tagmanager
 google:
   tag_manager:
-    container_id: GTM-WN6733T
+    container_id: GTM-KZDGVW5
 
 # Build settings
 markdown: kramdown

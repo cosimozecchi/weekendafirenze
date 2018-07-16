@@ -1,26 +1,67 @@
-    <footer class="footer bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-            
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.trame-digitali.it/">Trame Digitali</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-             <!--    <a href="#">Privacy Policy</a>-->
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">All Rights Reserved.</p>
-          </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          
+  <!--BEGIN-FOOTER-->
+  <footer> 
+    <!--BEGIN-CONTACT-->
+    <section id="contact" class="page-block">
+      <div class="section-title-container">
+        <h3 class="section-title shadowDn">Connect With Us</h3>
+      </div>
+      <div class="container clearfix cbp-so-section">
+      
+        <div class="col-md-4 footer-about cbp-so-side cbp-so-side-left">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ligula at tellus scelerisque elementum a et ante. Mauris pellentesque quam tortor. Pellentesque tincidunt id nisl non molestie. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ligula at tellus scelerisque elementum a et ante. Mauris pellentesque quam tortor. Pellentesque tincidunt id nisl non molestie. Cum sociis natoque penatibus et magnis dis parturient montes. </p>
+        </div>
+        
+        <div class="col-md-5">
+          <div class="ex-padding">
+            <h4>Questions?</h4>
+            <p>Please use the form below to contact us. All fields are required.</p>
+            <form id="contact_form" method="post" action="form/contact.php">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone" />
+              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
+              <textarea cols="60" rows="3" id="comment" name="comment" class="form-control" placeholder="Write your comment here..."></textarea>
+              <input type="submit" value="Submit" class="btn btn-custom btn-lg" id="submit" name="submit" />
+            </form>
           </div>
         </div>
+        
+        <div class="col-md-3 contactInfo cbp-so-side cbp-so-side-right">
+          <h4>Get In Touch</h4>
+          <p class="no-border"><i class="fa fa-clock-o"></i> Monday - Friday: <br>
+            9:00am - 6:00pm</p>
+          <p><i class="fa fa-map-marker"></i> 123 Main Street<br>
+            Your City, State Country.</p>
+          <p><i class="fa fa-phone"></i> Phone: 310.555.1213<br>
+            Fax: 310.555.1213</p>
+          <p><i class="fa fa-globe"></i> <a href="#" title="Visit Our Agency Website" target="_blank">www.travelagency.com</a></p>
+        </div>
       </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </section>
+    <!--END-OF-CONTACT--> 
+    
+    <!--BEGIN-COPYRIGHT-->
+    <section id="copyright">
+      <div class="container">
+        <div class="col-md-7 col-sm-7 col-xs-12">
+          <p>Copyright &copy; 2014. <strong>Voyage by Saptarang</strong>. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-12">
+          <div class="social text-right">
+            <ul class="list-inline">
+              <li><a class="tips" href="#" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="tips" href="#" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="tips" href="#" title="Follow Us on Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="tips" href="#" title="Watch Our gallery"><i class="fa fa-flickr"></i></a></li>
+              <li><a class="tips" href="#" title="Watch Our Videos"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          <!-- end social --> 
+          <a href="#home" class="top"><i class="fa fa-arrow-up fa-lg"></i></a> </div>
+      </div>
+    </section>
+    <!--END-OF-COPYRIGHT--> 
+    
+  </footer>
+  <!--BEGIN-SUBSCRIBE-->
