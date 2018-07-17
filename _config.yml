@@ -18,7 +18,7 @@ email: help@web95.it
 description: >- # this means to ignore newlines until "baseurl:"
   Online Florence museums tickets reservation available for independent travelers: save valuable time, avoid queues and secure museums tickets even in the high season, when Uffizi reservations are booked over a month in advance.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://www.weekendafirenze.com"" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://www.weekendafirenze.com # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
