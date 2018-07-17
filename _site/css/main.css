@@ -250,7 +250,11 @@ table th, table td {
 	width: 100%;
 	padding: 1em 0;
 	z-index: 99;
+	color: #fff;
 	border-top: 0.5em solid #000;
+}
+#top h2 {
+	color: #fff;
 }
 .navbar-default .navbar-toggle {
 	border: none;
@@ -343,7 +347,7 @@ table th, table td {
 	padding: 7em 0 8em 0;
 	box-shadow: 0 -1px 0 0 rgba(255,255,255,0.3);
 }
-#headline h2, #headline h5 {
+#headline h1, #headline h2, #headline h5, #headline p {
 	color: #fff;
 }
 #headline h5 {
