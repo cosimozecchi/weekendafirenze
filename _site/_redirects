@@ -1,2 +1,8 @@
 # Redirect with a 301
 /bigphp/mus.php         /              301
+
+# Redirect default Netlify subdomain to primary domain
+https://vigilant-banach-82db92.netlify.com/* https://www.weekendafirenze.com/:splat 301!
+
+# These extra rules are required because HTTPS is not forced
+http://vigilant-banach-82db92.netlify.com/* https://www.weekendafirenze.com/:splat 301!
